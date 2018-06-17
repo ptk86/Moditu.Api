@@ -8,6 +8,6 @@ namespace Moditu.Api.Model
   public class Moditu
   {
     public string Id { get; set; }
-    public ICollection<Question> Questions { get; set; }
+    public ICollection<Comment> Questions { get; set; }
   }
 }

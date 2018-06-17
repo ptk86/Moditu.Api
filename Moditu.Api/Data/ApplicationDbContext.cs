@@ -15,7 +15,7 @@ namespace Moditu.Api.Data
         {
         }
 
-        public DbSet<Question> Questions { get; set; }
+        public DbSet<Comment> Comments { get; set; }
         public DbSet<Model.Moditu> Moditus { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
